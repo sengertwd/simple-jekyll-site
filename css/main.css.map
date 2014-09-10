@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAA;;OAEQ;EACN,UAAU,EAAE,UAAU;;;AAGxB;IACK;EACH,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC",
+"sources": ["../_scss/reset/_reset.scss"],
 "names": [],
 "file": "main.css"
 }
