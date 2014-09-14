@@ -58,8 +58,14 @@ module.exports = function(grunt) {
           spawn: false,
           atBegin: true
         }
+      },
+      jekyll: {
+        files: ['**/*.html','_posts/**/*.md'],
+        tasks: ['shell:jekyllBuild'],
+        options: {
+          spawn: false
+        }
       }
-      // jekyll: {}
     }
   });
 
