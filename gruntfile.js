@@ -43,6 +43,12 @@ module.exports = function(grunt) {
       }
     },
     watch: {
+      configFiles: {
+        files: ['gruntfile.js'],
+        options: {
+          reload: true
+        }
+      },
       scripts: {
         files: ['js/main.js'],
         tasks: ['uglify','shell:jekyllBuild'],
