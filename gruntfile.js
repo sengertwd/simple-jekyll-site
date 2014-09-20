@@ -66,7 +66,7 @@ module.exports = function(grunt) {
         }
       },
       jekyll: {
-        files: ['**/*.html','_posts/**/*.md'],
+        files: ['**/*.html','_posts/**/*.md','!_site/**/*.html'],
         tasks: ['shell:jekyllBuild'],
         options: {
           spawn: false
