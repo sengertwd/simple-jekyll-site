@@ -5,6 +5,9 @@ module.exports = function(grunt) {
     shell: {
       jekyllBuild: {
         command: 'jekyll build'
+      },
+      jekyllServe: {
+        command: 'jekyll serve'
       }
     },
     uglify: {
@@ -85,5 +88,6 @@ module.exports = function(grunt) {
 
   // Default task(s).
   grunt.registerTask('default', ['watch']);
+  grunt.registerTask('serve', ['shell:jekyllServe']);
 
 };
